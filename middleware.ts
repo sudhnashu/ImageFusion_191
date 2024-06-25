@@ -4,6 +4,7 @@ export default authMiddleware({
   publicRoutes:['/api/webhooks/clerk']
 });
  
-export const config = {
+export
+ const config = {
   matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
 };
